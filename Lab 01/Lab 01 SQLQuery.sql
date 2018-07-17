@@ -26,7 +26,9 @@ IF OBJECT_ID('dbo.EMPLOYEE') IS NULL
 	Minit CHAR,
 	Lname VARCHAR(15) NOT NULL,
 	Ssn CHAR(9) NOT NULL,
-	Bdate DATE,	Address VARCHAR(30),	Sex CHAR,
+	Bdate DATE,
+	Address VARCHAR(30),
+	Sex CHAR,
 	Salary DECIMAL(10,2),
 	Super_ssn CHAR(9),
 	Dno INT
@@ -40,7 +42,8 @@ IF OBJECT_ID('dbo.DEPARTMENT') IS NULL
 	Dnumber INT NOT NULL,
 	Mgr_ssn CHAR(9) NOT NULL,
 	Mgr_start_date DATE
-); 
+); 
+
 
 --Let’s insert data into EMPLOYEE
 insert into EMPLOYEE values ( 'John', 'B' ,'Smith','123456789','9-Jan-55', '731 Fondren, Houston, TX', 'M', '30000', '987654321', '5');
