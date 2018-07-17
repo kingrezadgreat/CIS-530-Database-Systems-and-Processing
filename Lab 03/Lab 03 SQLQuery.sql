@@ -1,3 +1,12 @@
+/*
+CIS530– Lab Assignment 3
+Name: Reza Shisheie
+ID: 2708062
+Object: Querying a Relational Database COMPANY database
+
+*/
+
+
 USE master;
 
 -- define a data base called "COMPANY"
